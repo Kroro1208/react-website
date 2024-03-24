@@ -1,7 +1,30 @@
 import React from 'react';
+import Logo from '../assets/img/logo.svg'
+import Nav from './Nav'
+import { CiMenuFries } from "react-icons/ci";
+import AccountBtns from './AccountBtns';
+
 
 const Header = () => {
-  return <div>Header</div>;
+  return <header className='py-[30px] lg:pt-[60px]'
+    data-aos="fade-down"
+    data-aos-delay="900"
+    data-aos-duration="2000"
+
+  >
+    <div className='container mx-auto flex items-center justify-between'>
+      <a href="#">
+        <img src={Logo} alt="" />
+      </a>
+      <div className='hidden lg:flex gap-x-[55px]'>
+        <Nav />
+        <AccountBtns />
+      </div>
+      <div className='lg:hidden cursor-pointer'>
+        <CiMenuFries className='text-2xl' />
+      </div>
+    </div>
+  </header>;
 };
 
 export default Header;
