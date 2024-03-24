@@ -12,12 +12,12 @@ const Header = ({ setNavMobile }) => {
     data-aos-duration="2000"
 
   >
-    <div className='container mx-auto flex items-center justify-between'>
-      <a href="#" className='flex items-center text-black text-lg'>
+    <div className='mx-auto flex items-center justify-between'>
+      <a href="#" className='flex items-center text-black text-lg ml-14'>
         <img src={Logo} alt="" />
         Next Develop
       </a>
-      <div className='hidden lg:flex gap-x-[55px]'>
+      <div className='hidden lg:flex gap-x-[55px] mr-14'>
         <Nav />
         <AccountBtns />
       </div>

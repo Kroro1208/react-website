@@ -9,7 +9,7 @@ const Hero = () => {
     <div className='container mx-auto'>
       <div className='flex flex-col items-center lg:flex-row'>
         <div className='flex-1'>
-          <div className='bg-white/10 p-1 mb-6 rounded-full pl-1 pr-3 max-w-[365px]'
+          {/* <div className='bg-white/10 p-1 mb-6 rounded-full pl-1 pr-3 max-w-[365px]'
             data-aos="fade-down"
             data-aos-delay="400"
           >
@@ -17,7 +17,7 @@ const Hero = () => {
               <div className='bg-white text-darkblue rounded-full font-medium py-1 px-4'>50% off</div>
               <div>只今セール中！</div>
             </div>
-          </div>
+          </div> */}
           <h1
             data-aos="fade-down"
             data-aos-delay="500"
