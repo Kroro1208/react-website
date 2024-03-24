@@ -9,7 +9,7 @@ export const navData = [
     href: '#',
   },
   {
-    name: 'Features',
+    name: 'Business',
     href: '#',
   },
   {

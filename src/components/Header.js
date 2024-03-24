@@ -5,7 +5,7 @@ import { CiMenuFries } from "react-icons/ci";
 import AccountBtns from './AccountBtns';
 
 
-const Header = () => {
+const Header = ({ setNavMobile }) => {
   return <header className='py-[30px] lg:pt-[60px]'
     data-aos="fade-down"
     data-aos-delay="900"
@@ -20,7 +20,9 @@ const Header = () => {
         <Nav />
         <AccountBtns />
       </div>
-      <div className='lg:hidden cursor-pointer'>
+      <div
+        onClick={() => setNavMobile(true)}
+        className='lg:hidden cursor-pointer'>
         <CiMenuFries className='text-2xl' />
       </div>
     </div>
