@@ -1,7 +1,7 @@
 import React from 'react';
-import Logo from '../assets/img/logo.svg'
+import Logo from '../assets/img/icons8.svg'
 import Nav from './Nav'
-import { CiMenuFries } from "react-icons/ci";
+import { CgMenu } from "react-icons/cg";
 import AccountBtns from './AccountBtns';
 
 
@@ -13,8 +13,9 @@ const Header = ({ setNavMobile }) => {
 
   >
     <div className='container mx-auto flex items-center justify-between'>
-      <a href="#">
+      <a href="#" className='flex items-center text-black text-lg'>
         <img src={Logo} alt="" />
+        Next Develop
       </a>
       <div className='hidden lg:flex gap-x-[55px]'>
         <Nav />
@@ -23,7 +24,7 @@ const Header = ({ setNavMobile }) => {
       <div
         onClick={() => setNavMobile(true)}
         className='lg:hidden cursor-pointer'>
-        <CiMenuFries className='text-2xl' />
+        <CgMenu className='text-4xl' />
       </div>
     </div>
   </header>;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/img/hero-img.png';
+import Image from '../assets/img/sns.png';
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 
@@ -28,7 +28,7 @@ const Hero = () => {
           <p
             data-aos="fade-down"
             data-aos-delay="600"
-            className='max-w-[440px] leading-tight mb-8'>モダンな技術を使用したシステム開発なら我々にお任せください！
+            className='max-w-[440px] leading-tight mb-8 text-lg'>モダンな技術を使用したシステム開発なら我々にお任せください！
             幅広い技術を駆使して様々な面でサポートさせていただきます</p>
           <button
             data-aos="fade-down"
@@ -42,7 +42,7 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-delay="600"
         >
-          <img src={Image} alt="" />
+          <img src={Image} alt="" className='opacity-65' />
         </div>
       </div>
     </div>
