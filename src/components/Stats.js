@@ -22,7 +22,7 @@ const Stats = () => {
               <HiOutlineDesktopComputer />
             </div>
             <div>
-              <div className='text-gray-200 text-2xl font-bold lg:text-[40px] lg:mb-2'>Web制作</div>
+              <div className='text-gray-200 text-2xl font-bold lg:text-[25px] lg:mb-2'>システム開発事業</div>
               <div className='text-gray-300'>description</div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Stats = () => {
               <GrSystem />
             </div>
             <div>
-              <div className='text-gray-200 text-2xl font-bold lg:text-[40px] lg:mb-2'>システム開発</div>
+              <div className='text-gray-200 text-2xl font-bold lg:text-[25px] lg:mb-2'>ビジネスおよび<br />テクノロジー教育事業</div>
               <div className='text-gray-300'>description</div>
             </div>
           </div>
@@ -40,34 +40,7 @@ const Stats = () => {
               <RiRobot2Line />
             </div>
             <div>
-              <div className='text-gray-200 text-2xl font-bold lg:text-[40px] lg:mb-2'>AIコンサル</div>
-              <div className='text-gray-300'>description</div>
-            </div>
-          </div>
-          <div className='flex items-center gap-x-6'>
-            <div className='bg-gray-400 w-20 h-20 rounded-full flex justify-center items-center text-blue text-2xl lg:text-4xl'>
-              <IoMdPhonePortrait />
-            </div>
-            <div>
-              <div className='text-gray-200 text-2xl font-bold lg:text-[40px] lg:mb-2'>SNSコンサル</div>
-              <div className='text-gray-300'>description</div>
-            </div>
-          </div>
-          <div className='flex items-center gap-x-6'>
-            <div className='bg-gray-400 w-20 h-20 rounded-full flex justify-center items-center text-blue text-2xl lg:text-4xl'>
-              <SiInstagram />
-            </div>
-            <div>
-              <div className='text-gray-200 text-2xl font-bold lg:text-[40px] lg:mb-2'>インスタ運用</div>
-              <div className='text-gray-300'>description</div>
-            </div>
-          </div>
-          <div className='flex items-center gap-x-6'>
-            <div className='bg-gray-400 w-20 h-20 rounded-full flex justify-center items-center text-blue text-2xl lg:text-4xl'>
-              <FaLine />
-            </div>
-            <div>
-              <div className='text-gray-200 text-2xl font-bold lg:text-[40px] lg:mb-2'>LINE構築代行</div>
+              <div className='text-gray-200 text-2xl font-bold lg:text-[25px] lg:mb-2'>マーケティング事業</div>
               <div className='text-gray-300'>description</div>
             </div>
           </div>
