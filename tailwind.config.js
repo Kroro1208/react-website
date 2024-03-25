@@ -31,7 +31,6 @@ module.exports = {
       },
       backgroundImage: {
         newsletter: "url('/src/assets/img/newsletter-bg.png')",
-        newsletterBox: "url('/src/assets/img/newsletter-box.png')",
       },
     },
     screens: {
