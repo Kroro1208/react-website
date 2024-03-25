@@ -1,7 +1,6 @@
 import React from 'react';
 import { navData } from '../data';
 import { IoMdClose } from "react-icons/io";
-import { CiLight } from 'react-icons/ci';
 
 
 
@@ -17,7 +16,7 @@ const NavMobile = ({ setNavMobile }) => {
         {navData.map((item, index) => {
           return (
             <li key={index}>
-              <a href="item.href">{item.name}</a>
+              <a href={item.href}>{item.name}</a>
             </li>
           )
         })}
