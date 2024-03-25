@@ -9,7 +9,7 @@ const Nav = () => {
           return (
             <li className='text-lg border-b-2 border-transparent hover:border-white transition-all duration-500'
               key={index} >
-              <a href="item.href">{item.name}</a>
+              <a href={item.href}>{item.name}</a>
             </li>
           );
         })}

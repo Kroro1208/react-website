@@ -1,39 +1,33 @@
+import { BrowserRouter } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
-import Hero from './components/Hero';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from './components/Header';
 import NavMobile from './components/NavMobile';
-import Stats from './components/Stats';
-import Why from './components/Why';
-import Contact from './components/Contacts';
-import Works from './components/Works';
-import Newsletter from './components/Newsletter';
+import PagesRouter from './components/PagesRouter';
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
+
   useEffect(() => {
     AOS.init({
       duration: 2500,
       delay: 400
     });
-  })
+  });
 
   return (
-    <div className='overflow-hidden'>
-      <Header setNavMobile={setNavMobile} />
-      <Hero />
-      <div className={`${navMobile ? 'right-0' : '-right-full'}
-      fixed z-10 top-0 h-full transition-all duration-200`}>
-        <NavMobile setNavMobile={setNavMobile} />
+    <BrowserRouter>
+      <div className='overflow-hidden'>
+        <Header setNavMobile={setNavMobile} />
+        <div className={`${navMobile ? 'right-0' : '-right-full'}
+        fixed z-10 top-0 h-full transition-all duration-200`}>
+          <NavMobile setNavMobile={setNavMobile} />
+        </div>
+        {/* ルーティングされたページを表示 */}
+        <PagesRouter />
       </div>
-      <Stats />
-      <Why />
-      <Works />
-      <Newsletter />
-      <Contact />
-      <div className='h-[2000px]'></div>
-    </div>
+    </BrowserRouter>
   );
 };
 

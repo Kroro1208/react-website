@@ -5,20 +5,20 @@ import matching from './assets/img/matching.png';
 
 export const navData = [
   {
-    name: 'Products',
-    href: '#',
+    name: 'Home',
+    href: '/',
   },
   {
     name: 'Business',
-    href: '#',
+    href: '/business',
   },
   {
     name: 'About',
-    href: '#',
+    href: '/about',
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/contact',
   },
 ];
 
