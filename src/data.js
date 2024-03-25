@@ -1,7 +1,7 @@
 // import images
-import BitconImg from './assets/img/bitcon.png';
-import EthereumImg from './assets/img/ethereum.png';
-import LitecoinImg from './assets/img/litecoin.png';
+import website2 from './assets/img/website2.png';
+import social from './assets/img/sns2.png';
+import matching from './assets/img/matching.png';
 
 export const navData = [
   {
@@ -22,26 +22,23 @@ export const navData = [
   },
 ];
 
-export const currency = [
+export const works = [
   {
-    image: BitconImg,
-    name: 'Bitcoin',
-    abbr: 'BTC',
-    description:
-      'Digital currency in which a record of transactions is maintained.',
+    image: website2,
+    name: 'ECサイト',
+    description: "多機能かつユーザーフレンドリーなECサイトの開発を手掛け、売上の向上と顧客満足度の向上に貢献。カスタマイズ可能な商品ページと、安全な決済システムを統合。"
+
   },
   {
-    image: EthereumImg,
-    name: 'Ethereum',
-    abbr: 'ETH',
+    image: matching,
+    name: 'マッチングアプリ',
     description:
-      'Blockchain technology to create and run decentralized digital applications.',
+      "興味や活動を共有するユーザーを繋げるマッチングアプリを開発。独自のアルゴリズムにより、高いマッチング精度とユーザーエンゲージメントを実現。",
   },
   {
-    image: LitecoinImg,
-    name: 'Litecoin',
-    abbr: 'LTC',
+    image: social,
+    name: 'SNSコンサル',
     description:
-      'Cryptocurrency that enables instant payments to anyone in the world.',
+      "複数のSNSプラットフォームにわたる統合マーケティング戦略の立案と実行を支援。クライアントのオンラインプレゼンスとユーザーとの関わりを深める戦略を提供。",
   },
 ];

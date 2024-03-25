@@ -8,13 +8,13 @@ const Why = () => {
         <div className='flex flex-col items-center gap-x-8 lg:flex-row'>
           <div
             data-aos="fade-right"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-2 lg:order-1'>
             <img src={Image} alt="" />
           </div>
           <div
             data-aos="fade-left"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-1 lg:order-2 max-w-[480px]'>
             <h2 className='section-title'>私たちが選ばれる理由</h2>
             <p className='section-subtitle'>モダンなスキルを使用し、保守性が高くユーザーフレンドリーなサービスを提供しています</p>
@@ -24,7 +24,7 @@ const Why = () => {
         <div className='flex flex-col items-center gap-x-8 lg:flex-row'>
           <div
             data-aos="fade-right"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-2 lg:order-1 max-w-[480px]'>
             <h2 className='section-title'>私たちが選ばれる理由</h2>
             <p className='section-subtitle'>モダンなスキルを使用し、保守性が高くユーザーフレンドリーなサービスを提供しています</p>
@@ -32,7 +32,7 @@ const Why = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-2 lg:order-1'>
             <img src={Image} alt="" />
           </div>
@@ -40,13 +40,13 @@ const Why = () => {
         <div className='flex flex-col items-center gap-x-8 lg:flex-row'>
           <div
             data-aos="fade-right"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-2 lg:order-1'>
             <img src={Image} alt="" />
           </div>
           <div
             data-aos="fade-left"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-1 lg:order-2 max-w-[480px]'>
             <h2 className='section-title'>私たちが選ばれる理由</h2>
             <p className='section-subtitle'>モダンなスキルを使用し、保守性が高くユーザーフレンドリーなサービスを提供しています</p>
@@ -56,7 +56,7 @@ const Why = () => {
         <div className='flex flex-col items-center gap-x-8 lg:flex-row'>
           <div
             data-aos="fade-right"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-2 lg:order-1 max-w-[480px]'>
             <h2 className='section-title'>私たちが選ばれる理由</h2>
             <p className='section-subtitle'>モダンなスキルを使用し、保守性が高くユーザーフレンドリーなサービスを提供しています</p>
@@ -64,7 +64,7 @@ const Why = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-2 lg:order-1'>
             <img src={Image} alt="" />
           </div>
@@ -72,13 +72,13 @@ const Why = () => {
         <div className='flex flex-col items-center gap-x-8 lg:flex-row'>
           <div
             data-aos="fade-right"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-2 lg:order-1'>
             <img src={Image} alt="" />
           </div>
           <div
             data-aos="fade-left"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-1 lg:order-2 max-w-[480px]'>
             <h2 className='section-title'>私たちが選ばれる理由</h2>
             <p className='section-subtitle'>モダンなスキルを使用し、保守性が高くユーザーフレンドリーなサービスを提供しています</p>
@@ -88,7 +88,7 @@ const Why = () => {
         <div className='flex flex-col items-center gap-x-8 lg:flex-row'>
           <div
             data-aos="fade-right"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-2 lg:order-1 max-w-[480px]'>
             <h2 className='section-title'>私たちが選ばれる理由</h2>
             <p className='section-subtitle'>モダンなスキルを使用し、保守性が高くユーザーフレンドリーなサービスを提供しています</p>
@@ -96,7 +96,7 @@ const Why = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-offset="400"
+            data-aos-offset="200"
             className='order-2 lg:order-1'>
             <img src={Image} alt="" />
           </div>

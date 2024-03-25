@@ -8,6 +8,7 @@ import Stats from './components/Stats';
 import Why from './components/Why';
 import Calculate from './components/Calculate';
 import Contact from './components/Contacts';
+import Works from './components/Works';
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -28,6 +29,7 @@ const App = () => {
       </div>
       <Stats />
       <Why />
+      <Works />
       <Contact />
       <div className='h-[2000px]'></div>
     </div>
