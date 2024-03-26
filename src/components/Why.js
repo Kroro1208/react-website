@@ -35,7 +35,7 @@ const Why = () => {
               <GrSystem className='text-xl' />
               <p className='text-2xl lg:text-[20px] font-medium'>システム開発</p>
             </div>
-            <Link to={'/systems'}>
+            <Link to={'/systems'} className="flex justify-center w-full">
               <button className='bg-blue h-[60px] px-4 rounded-full mt-5 hover:bg-blue-400'>Learn more</button>
             </Link>
           </div>
@@ -54,8 +54,8 @@ const Why = () => {
               <FaInstagram className='text-3xl' />
               <p className='text-2xl lg:text-[20px] font-medium'>SNS運用のノウハウを教える事業: 「SNSマスタリー・アカデミー」</p>
             </div>
-            <Link to={'/business'}>
-              <button className='bg-blue h-[60px] w-72 px-4 rounded-full mt-5 hover:bg-blue-400'>Learn more</button>
+            <Link to={'/business'} className="flex justify-center w-full">
+              <button className='bg-blue h-[60px] px-4 rounded-full mt-5 hover:bg-blue-400'>Learn more</button>
             </Link>
           </div>
           <div
@@ -94,8 +94,8 @@ const Why = () => {
               <FaMoneyBillTrendUp className='text-2xl' />
               <p className='text-2xl lg:text-[20px] font-medium'>副業支援</p>
             </div>
-            <Link to={'/marketing'}>
-              <button className='bg-blue h-[60px] w-72 px-4 rounded-full mt-5 hover:bg-blue-400'>Learn more</button>
+            <Link to={'/marketing'} className="flex justify-center w-full">
+              <button className='bg-blue h-[60px] px-4 rounded-full mt-5 hover:bg-blue-400'>Learn more</button>
             </Link>
           </div>
         </div>
