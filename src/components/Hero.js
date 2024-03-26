@@ -30,13 +30,6 @@ const Hero = () => {
             data-aos-delay="600"
             className='max-w-[440px] leading-tight mb-8 text-lg'>モダンな技術を使用したシステム開発なら我々にお任せください！
             幅広い技術を駆使して様々な面でサポートさせていただきます</p>
-          <button
-            data-aos="fade-down"
-            data-aos-delay="700"
-            className='btn gap-x-6 pl-6 text-sm lg:h-16 lg:text-base'>
-            Try for free
-            <FaRegArrowAltCircleRight className='text-2xl lg:text-3xl' />
-          </button>
         </div>
         <div className='flex-1'
           data-aos="fade-up"

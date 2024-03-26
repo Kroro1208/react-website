@@ -9,16 +9,16 @@ export const navData = [
     href: '/',
   },
   {
-    name: 'Business',
+    name: 'システム開発事業',
+    href: '/systems',
+  },
+  {
+    name: 'ビジネス及びテクノロジー',
     href: '/business',
   },
   {
-    name: 'About',
-    href: '/about',
-  },
-  {
-    name: 'Contact',
-    href: '/contact',
+    name: 'マーケティング事業',
+    href: '/marketing',
   },
 ];
 

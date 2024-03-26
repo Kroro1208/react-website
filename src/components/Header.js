@@ -19,7 +19,6 @@ const Header = ({ setNavMobile }) => {
       </a>
       <div className='hidden lg:flex gap-x-[55px] mr-14'>
         <Nav />
-        <AccountBtns />
       </div>
       <div
         onClick={() => setNavMobile(true)}
