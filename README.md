@@ -1,1 +1,6 @@
-# cyptocurrency-website-starter
+# 完成品デモ
+## レスポンシブ対応
+![構成](/readme用2.gif)
+
+## レスポンシブ対応
+![レスポンシブ](/readme用1.gif)
